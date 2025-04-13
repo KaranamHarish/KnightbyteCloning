@@ -1,0 +1,185 @@
+*{
+    margin: auto;
+}
+.content{
+    background-image: url(https://knight-bite.com/res/about/banner.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#homepage{
+    font-family: "Convergence", serif;
+    background-color: rgba();
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;   
+}
+.logo{
+    background-image: url(./Images/kb_logo_new_2.png);
+    margin: 10px 100px;
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.homepage1{
+    font-size: larger;
+    position: relative;
+    top: 20px;
+    left: 700px;
+    width: 400px;
+    word-spacing: 40px;
+}
+.banner h1{
+    padding: 40vh 30px;
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.5em;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "nicotinregular";
+    font-size: 2.8vw;
+    margin: 0%;
+    width: 50%;
+    padding-left: 0px;
+}
+h1{
+    display: block;
+}
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+#img1{
+    width: 500px;
+}
+.para1{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    margin: 80px 0;
+    font-size: 21px;
+    color: #424242;
+}
+.page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+#img2{
+    height: 400px;
+    width: 400px;
+    padding-right: 100px;
+}
+.para2{
+    padding-right: 100px;
+    text-align: justify;
+    margin: 80px 0;
+    font-size: 21px;
+    color: #424242;
+}
+.page4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+#img3{
+    height: 400px;
+    width: 500px;
+    padding-right: 100px;
+}
+.para3{
+    padding-right: 100px;
+    text-align: justify;
+    margin: 80px 0;
+    font-size: 21px;
+    color: #424242;
+}
+.page5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+h1{
+    color: #424242;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.locations span {
+    color: #424242;
+    font-weight: 700;
+}
+.copy-rights{
+    background-color: #FF5672;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.d-hotline.h-btn {
+    align-items: center;
+    border-radius: 34px 8px 34px 34px;
+    bottom: 6px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .26);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 5px;
+    z-index: 9995;
+    height: 60px;
+    width: 60px;
+}
+.animated.faster {
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+}
+.d-hotline {
+    background-color: #ff5672 !important;
+    color: #ffffff !important;
+    border-color: transparent #ff5672 transparent transparent;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}

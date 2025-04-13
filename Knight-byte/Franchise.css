@@ -1,0 +1,171 @@
+*{
+    margin: auto;
+}
+.content{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed
+}
+#homepage{
+    font-family: "Convergence", serif;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;   
+}
+.logo{
+    background-image: url(./Images/kb_logo_new_2.png);
+    margin: 10px 100px;
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.homepage1{
+    font-size: larger;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    width: 400px;
+    word-spacing: 40px;
+}
+/* .video-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+} */
+.video-playback{
+    display: flex;
+    flex-direction: column;
+ }
+.head-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: rgb(0 0 0 / 25%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.title{
+      font-size: 20px;
+      margin-top: 12px;
+      /* margin-bottom: 3em; */
+      text-transform: uppercase;
+}
+.btn {
+    font-size: 13px;
+    width: 160px;
+    background: #FF5672;
+    padding: 10px 20px;
+    width: 195px;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.moto {
+    padding: 15px 5px;
+    margin: 15px 5px;
+    text-align: center;
+}
+.divider {
+    width: 85vw;
+    height: 2.5px;
+    margin: 0 auto 40px;
+    background: #c77bf4;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.apply h1{
+    font-weight: 700; 
+    margin-bottom: 10px; 
+    font-size: 34px;
+    text-align: center;
+}
+.apply p{
+    text-align: center;
+}
+.apply-grid div:first-child {
+    margin-top: 0px;
+    height: 210px;
+    width: 100%;
+    background-size: contain;
+    margin-top: 0px;
+    height: 520px;
+    width: 100%;
+    background: url(./Images/IMG-20250120-WA0041.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.footer h1{
+    text-align: center;
+    font-weight: 700; 
+    margin-bottom: 10px; 
+    font-size: 34px
+}
+.footer-grid{
+    font-style: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #424242;
+    padding: 0px;
+    margin: 0px;
+}
+.copy-rights{
+    background-color: #FF5672;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.chat-icon{
+    height: 60px;
+    width: 60px;
+    background-color: #FF5672;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    border-top-right-radius: 10%;
+}
+.chat-icon>i{
+    position: absolute;
+    right: 15px;
+    bottom: 14px;
+    color: white;
+}

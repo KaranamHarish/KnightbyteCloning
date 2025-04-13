@@ -1,0 +1,208 @@
+*{
+    margin: auto;
+    font-family: "Convergence", serif;
+}
+.content{
+    background-image: url(https://knight-bite.com/res/index/app-link-background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#homepage{
+    background-color: rgba();
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;   
+}
+.logo{
+    background-image: url(./Images/kb_logo_new_2.png);
+    margin: 10px 100px;
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.homepage1{
+    font-size: larger;
+    position: relative;
+    top: 20px;
+    left: 700px;
+    width: 400px;
+    word-spacing: 40px;
+}
+h3:first-child{
+    font-family: 'Nicotine Stains', sans-serif;
+    font-size: 600;
+    text-transform: uppercase;
+    padding-top: 270px;
+    letter-spacing: 8px;
+    word-spacing: 30px;
+}
+.main{
+    color: white;
+    text-align: center;
+}
+.order{
+    margin: 20px 0px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 700;
+    background-color: #FF5672;
+    color: white;
+}
+h3:last-child{
+    margin: 20px 0px;
+    padding-top: 270px;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+}
+.main1{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.ios{
+    background-image: url(https://knight-bite.com/res/index/ios-store.svg);
+    background-repeat: no-repeat;
+    background-size: 170px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.android{
+    background-image: url(https://knight-bite.com/res/index/google-play-badge.svg);
+    background-repeat: no-repeat;
+    background-size: 170px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.feature{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: flex-start;
+}
+h2{
+   margin: 100px 0px;
+   text-align: center;
+   color: #424242;
+   font-size: 80px;
+}
+.feature-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-content: flex-start;
+}
+.feature-description{
+    margin: 40px 0;
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    width: 190px;
+    text-transform: capitalize
+}
+.pic1{
+   background-image: url(https://knight-bite.com/res/index/banner-1.webp);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: left;
+   font-size: 100px;
+   height: 1050px;
+   text-align: center;
+   color: white;
+   padding-top: 300px;
+}
+.pic2{
+   background-image: url(https://knight-bite.com/res/index/banner-2.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: left;
+   font-size: 100px;
+   height: 1050px;
+   text-align: center;
+   color: white;
+   margin-top: -325px;
+}
+.menu{
+   margin-top: 250px;
+   padding: 10px;
+   width: 10%;
+   border: none;
+   border-radius: 50px;
+   background: none;
+   border: 2px solid white;
+   color: white;
+   font-size: 20px;
+}
+#footer1{
+    display: flex;
+}
+#footer2{
+    display: flex;
+}
+.copy-rights{
+    background-color: #FF5672;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.d-hotline.h-btn {
+    align-items: center;
+    border-radius: 34px 8px 34px 34px;
+    bottom: 6px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .26);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 5px;
+    z-index: 9995;
+    height: 60px;
+    width: 60px;
+}
+.animated.faster {
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+}
+.d-hotline {
+    background-color: #ff5672 !important;
+    color: #ffffff !important;
+    border-color: transparent #ff5672 transparent transparent;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
